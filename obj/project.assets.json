@@ -1,39 +1,33 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    "net5.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    "net5.0": []
   },
   "packageFolders": {
-    "/home/eliezer/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\brazi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/eliezer/sandbox/dio/DIO.Series/DIO.Series.csproj",
+      "projectUniqueName": "C:\\Users\\brazi\\Documents\\dio-dotnet-poo-lab-2\\DIO.Series.csproj",
       "projectName": "DIO.Series",
-      "projectPath": "/home/eliezer/sandbox/dio/DIO.Series/DIO.Series.csproj",
-      "packagesPath": "/home/eliezer/.nuget/packages/",
-      "outputPath": "/home/eliezer/sandbox/dio/DIO.Series/obj/",
+      "projectPath": "C:\\Users\\brazi\\Documents\\dio-dotnet-poo-lab-2\\DIO.Series.csproj",
+      "packagesPath": "C:\\Users\\brazi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\brazi\\Documents\\dio-dotnet-poo-lab-2\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "/home/eliezer/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\brazi\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "net5.0"
       ],
-      "sources": {
-        "https://api.nuget.org/v3/index.json": {}
-      },
       "frameworks": {
-        "netcoreapp3.1": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "projectReferences": {}
         }
       },
@@ -44,7 +38,8 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
+      "net5.0": {
+        "targetAlias": "net5.0",
         "imports": [
           "net461",
           "net462",
@@ -60,7 +55,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
