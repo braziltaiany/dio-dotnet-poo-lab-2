@@ -47,8 +47,23 @@ namespace DIO.Series
 		{
 			Console.Write("Digite o id da série: ");
 			int indiceSerie = int.Parse(Console.ReadLine());
+			
+			Console.WriteLine($"Escreva X para excluir a série de id {indiceSerie}:  ");
+			string confirmaExcluir = Console.ReadLine();
 
-			repositorio.Exclui(indiceSerie);
+			if (confirmaExcluir.ToUpper() == "X")
+			{
+				repositorio.Exclui(indiceSerie);
+				Console.WriteLine(" ");
+				Console.WriteLine("Série Excluida com sucesso!!!");
+				Console.WriteLine("------------------------------------");
+			}
+			else
+			{
+				string opcaoUsuario = ObterOpcaoUsuario();
+			}
+	
+			
 		}
 
         private static void VisualizarSerie()
@@ -67,7 +82,7 @@ namespace DIO.Series
 			int indiceSerie = int.Parse(Console.ReadLine());
 
 			Serie serie = InformacaoInputSerie();
-			
+
 			repositorio.Atualiza(indiceSerie, serie);
 		}
         private static void ListarSeries()
