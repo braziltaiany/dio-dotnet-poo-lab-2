@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\brazi\\Documents\\dio-dotnet-poo-lab-2\\DIO.Series.csproj",
-      "projectName": "DIO.Series",
-      "projectPath": "C:\\Users\\brazi\\Documents\\dio-dotnet-poo-lab-2\\DIO.Series.csproj",
+      "projectUniqueName": "C:\\Users\\brazi\\Documents\\dio-dotnet-poo-lab-2\\DIO.catalogo.csproj",
+      "projectName": "DIO.catalogo",
+      "projectPath": "C:\\Users\\brazi\\Documents\\dio-dotnet-poo-lab-2\\DIO.catalogo.csproj",
       "packagesPath": "C:\\Users\\brazi\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\brazi\\Documents\\dio-dotnet-poo-lab-2\\obj\\",
       "projectStyle": "PackageReference",
